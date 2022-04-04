@@ -1,0 +1,22 @@
+﻿<Window x:Class="Fitnes.Win1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fitnes"
+        mc:Ignorable="d"
+        Title="Добавление клиента" Height="321.562" Width="389.374">
+    <Grid Margin="0,0,2,-2">
+        <Label Content="Фамилия" HorizontalAlignment="Left" Height="30" Margin="36,63,0,0" VerticalAlignment="Top" Width="69"/>
+        <Label Content="Имя" HorizontalAlignment="Left" Height="30" Margin="36,98,0,0" VerticalAlignment="Top" Width="69"/>
+        <Label Content="Отчество" HorizontalAlignment="Left" Height="30" Margin="36,133,0,0" VerticalAlignment="Top" Width="69"/>
+        <Label Content="Номер телефона" HorizontalAlignment="Left" Height="30" Margin="36,168,0,0" VerticalAlignment="Top" Width="108"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="105,229,0,0" VerticalAlignment="Top" Width="158" Height="29" FontSize="16" FontStyle="Italic" Background="#FFCBF7C4" Foreground="Black" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="143,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="143,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="143,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="144,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+
+    </Grid>
+</Window>
